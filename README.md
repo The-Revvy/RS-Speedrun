@@ -8,10 +8,10 @@ I made a mistake while working on [e-Writer](https://github.com/The-Revvy/e-writ
 
 To run in an emulator: generate `RAW`:
 ```
-nedcmake.exe -i main.bin -o us -type 1 -region 1 -raw
+nedcmake.exe -i card.z80 -o us -type 1 -region 1 -raw
 ```
 
 To run on real hardware: generate `BMP`:
 ```
-nedcmake.exe -i main.bin -o us -type 1 -region 1 -bmp
+nedcmake.exe -i card.z80 -o us -type 1 -region 1 -bmp
 ```
